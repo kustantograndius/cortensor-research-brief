@@ -1,0 +1,2 @@
+model output failed schema validation; raw text follows:
+researcher: act_loop_adaptive does not expose tool 'web.search' in the current loop. Activate it before use.

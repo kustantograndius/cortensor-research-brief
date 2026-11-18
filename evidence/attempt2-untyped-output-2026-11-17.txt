@@ -1,0 +1,13 @@
+model output failed schema validation; raw text follows:
+researcher: **OpenMinion** is a Python-first, local-first agent runtime designed for building and running tool-using AI agents that can perform real work.
+
+### What OpenMinion Provides to Agent Builders
+
+1. **Unified Execution Runtime:** Enables builders to move seamlessly between a CLI, a released Python SDK, an HTTP API, and daemon-backed workflows without having to rewrite or rebuild the underlying agent stack for each new entry point.
+2. **Local-First & Inspectable Architecture:** Keeps execution, tools, state, and diagnostics tightly integrated so developers can fully inspect what their agents are doing instead of piecing together fragmented wrappers.
+3. **Durable Sessions & State Management:** Natively supports persistent sessions, conversations, and threads.
+4. **Flexible Provider & Model Support:** Works with multiple model providers (such as OpenAI, Anthropic, OpenRouter, Ollama, and Cortensor), enabling developers to switch providers or build multi-provider agent patterns easily.
+5. **Tool Integration & Advanced Patterns:** Provides access to model-facing tool IDs and supports building robust, tool-using agents, structured outputs, streaming progress, handoffs, and subagents.
+6. **Developer Surfaces:** Offers a command-line interface (CLI), Python SDK, HTTP API, and a desktop app for running and monitoring local AI agents.
+
+*(Note: Official OpenMinion documentation explicitly notes that the project has no official token, coin, NFT, airdrop, or investment offering.)*
