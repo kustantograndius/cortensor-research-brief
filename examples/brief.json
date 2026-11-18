@@ -1,0 +1,108 @@
+{
+  "brief": {
+    "question": "What is OpenMinion and what does it provide to agent builders?",
+    "summary": "OpenMinion is a Python-first, local-first runtime designed for building, running, and operating tool-using AI agents locally and across environments.",
+    "findings": [
+      {
+        "claim": "OpenMinion is a Python-first, local-first runtime for tool-using agents that can perform real work locally and across environments.",
+        "source_url": "https://www.openminion.com/"
+      },
+      {
+        "claim": "It provides a unified local-first runtime keeping execution, tools, state, and diagnostics together.",
+        "source_url": "https://www.openminion.com/"
+      },
+      {
+        "claim": "Builders can use flexible entry points including a CLI, Python SDK, HTTP API, and daemon-backed workflows without altering the underlying execution model.",
+        "source_url": "https://www.openminion.com/"
+      },
+      {
+        "claim": "It supports multi-provider integration and provider switching across models such as OpenAI, Anthropic, OpenRouter, Ollama, and Cortensor.",
+        "source_url": "https://www.openminion.com/docs/examples/patterns/multi-provider-agents/"
+      },
+      {
+        "claim": "It includes durable sessions, conversations, threads, runs, and OpenTelemetry readiness for diagnostics and observability.",
+        "source_url": "https://www.openminion.com/"
+      }
+    ],
+    "limitations": []
+  },
+  "verification_local": [
+    {
+      "claim": "OpenMinion is a Python-first, local-first runtime for tool-using agents that can perform real work locally and across environments.",
+      "source_url": "https://www.openminion.com/",
+      "status": "SUPPORTED",
+      "overlap": 0.79,
+      "note": "token overlap between claim and fetched page text"
+    },
+    {
+      "claim": "It provides a unified local-first runtime keeping execution, tools, state, and diagnostics together.",
+      "source_url": "https://www.openminion.com/",
+      "status": "SUPPORTED",
+      "overlap": 0.73,
+      "note": "token overlap between claim and fetched page text"
+    },
+    {
+      "claim": "Builders can use flexible entry points including a CLI, Python SDK, HTTP API, and daemon-backed workflows without altering the underlying execution model.",
+      "source_url": "https://www.openminion.com/",
+      "status": "SUPPORTED",
+      "overlap": 0.79,
+      "note": "token overlap between claim and fetched page text"
+    },
+    {
+      "claim": "It supports multi-provider integration and provider switching across models such as OpenAI, Anthropic, OpenRouter, Ollama, and Cortensor.",
+      "source_url": "https://www.openminion.com/docs/examples/patterns/multi-provider-agents/",
+      "status": "SUPPORTED",
+      "overlap": 0.77,
+      "note": "token overlap between claim and fetched page text"
+    },
+    {
+      "claim": "It includes durable sessions, conversations, threads, runs, and OpenTelemetry readiness for diagnostics and observability.",
+      "source_url": "https://www.openminion.com/",
+      "status": "SUPPORTED",
+      "overlap": 0.8,
+      "note": "token overlap between claim and fetched page text"
+    }
+  ],
+  "research_draft": "researcher: OpenMinion is a Python-first, local-first runtime designed for building and running tool-using AI agents that can perform real work locally and across environments [https://www.openminion.com/].\n\nFor agent builders, OpenMinion provides several key capabilities and features:\n* **Unified Local-First Runtime:** It allows builders to keep execution, tools, state, and diagnostics together in a single runtime rather than rebuilding the agent around different entry points [https://www.openminion.com/].\n* **Flexible Entry Points & Workflows:** Builders can develop and deploy agents through a CLI, a released Python SDK, an HTTP API, or daemon-backed workflows without altering the underlying execution model [https://www.openminion.com/].\n* **Multi-Provider & Provider Switching:** It supports integration with various model providers (such as OpenAI, Anthropic, OpenRouter, Ollama, and Cortensor) and application patterns like provider switching and multi-provider agents [https://www.openminion.com/docs/examples/patterns/multi-provider-agents/].\n* **Durable Sessions & Infrastructure:** It includes built-in support for persistent sessions, conversations, tool-using capabilities, and OpenTelemetry (OTel) readiness for diagnostics [https://www.openminion.com/].",
+  "sources_searched": [
+    {
+      "query": "OpenMinion agent builders",
+      "backend": "duckduckgo-lite",
+      "results": [
+        {
+          "title": "Multi-provider Agents - OpenMinion Documentation",
+          "url": "https://www.openminion.com/docs/examples/patterns/multi-provider-agents/"
+        },
+        {
+          "title": "OpenMinion | Local-First Agent Runtime",
+          "url": "https://www.openminion.com/"
+        },
+        {
+          "title": "Agent Builder | OpenAI API",
+          "url": "https://developers.openai.com/api/docs/guides/agent-builder"
+        },
+        {
+          "title": "A Practical Guide to Building AI Agents | OpenAI",
+          "url": "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/"
+        },
+        {
+          "title": "Guide to Building AI Agents with OpenAI AgentBuilder",
+          "url": "https://blog.promptlayer.com/openai-agentbuilder-a-complete-guide-to-ai-agent-creation/"
+        },
+        {
+          "title": "Introducing AgentKit, new Evals, and RFT for agents | OpenAI",
+          "url": "https://openai.com/index/introducing-agentkit/"
+        }
+      ]
+    }
+  ],
+  "sources_fetched": [
+    "https://www.openminion.com/",
+    "https://www.openminion.com/docs/examples/patterns/multi-provider-agents/"
+  ],
+  "run": {
+    "session_id": "research-brief-demo",
+    "research_run_id": "c42fe57eae6545fbb400cede6e73d601",
+    "synthesis_run_id": "27c048fb96b04275b622d7f40049b767"
+  }
+}
